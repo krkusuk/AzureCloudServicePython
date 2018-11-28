@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "PythonWeb1", "PythonWeb1\PythonWeb1.ccproj", "{38FA659D-9F3A-46DF-8E93-34202BC5ECB7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FlaskWebrole1", "FlaskWebrole1\FlaskWebrole1.pyproj", "{F61409B0-E7C7-4022-915C-C0E790C55106}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WebRole1", "WebRole1\WebRole1.pyproj", "{6FA7A9BA-64AD-4B44-8823-D84990B3CF75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38FA659D-9F3A-46DF-8E93-34202BC5ECB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FA659D-9F3A-46DF-8E93-34202BC5ECB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FA659D-9F3A-46DF-8E93-34202BC5ECB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FA659D-9F3A-46DF-8E93-34202BC5ECB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61409B0-E7C7-4022-915C-C0E790C55106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61409B0-E7C7-4022-915C-C0E790C55106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61409B0-E7C7-4022-915C-C0E790C55106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61409B0-E7C7-4022-915C-C0E790C55106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA7A9BA-64AD-4B44-8823-D84990B3CF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA7A9BA-64AD-4B44-8823-D84990B3CF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA7A9BA-64AD-4B44-8823-D84990B3CF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA7A9BA-64AD-4B44-8823-D84990B3CF75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B8928E3-7AEB-4859-99B4-97D63C3134F5}
+	EndGlobalSection
+EndGlobal

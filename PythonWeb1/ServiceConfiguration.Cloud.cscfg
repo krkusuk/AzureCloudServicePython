@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="PythonWeb1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=agoradev;AccountKey=$(_agoradev.key_)" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="krkusuk" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEFsdC32y2kC0RHbhdR0XQtEwDQYJKoZIhvcNAQEBBQAEggEACqmt0sIZL6WfevyxQNbdvwjNueC1X9BRhhZo8odH7yusHhcze51AyQnZX71NQA2iwpY8s4S3eIC9g5nqkjBjJD5AYQDn3PbWzCZlzW5suK/N5oCTAQkLtcOfLpzX5F1PWXlf9ws8Mi/CiN3JtOnm6zIFXTHxdcOd9duyxY+qUB79QHY9n91BWA0TLk0qEKmkn772renKBLfP1SKhDeWOQBb74VD3pJZ0Jna9GLRsyBU7/ux1HJbIhEXl53Ra3EQI58tlWucZJBGQlEVdCyR6FB/lb2YhzAtP4g5Op4RiJjlmTullVUp6qdk50twlXJmIPslt7LnPU6GYCno9p29YlTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECEBy7WoFtCkKgBBKiHCSpAMQwS+xuKv9QZjS" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2019-11-27T23:59:59.0000000-08:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="bb5843ed-b19e-475b-bc46-7edea25c8405" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="33AD83BCE77E9E4BD1B61EBCA2CC86F322473696" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
